@@ -32,6 +32,7 @@
 		"XDG_RUNTIME_DIR": "${localEnv:XDG_RUNTIME_DIR}",
 		"PULSE_SERVER": "${localEnv:PULSE_SERVER}",
 		"ROS_AUTOMATIC_DISCOVERY_RANGE": "LOCALHOST",
+		"PYTHONWARNINGS": "ignore:easy_install command is deprecated,ignore:setup.py install is deprecated",
 		// uncomment if you are on ARM architecture
 		// "LIBGL_ALWAYS_SOFTWARE": "1" // Needed for software rendering of opengl
 	},
